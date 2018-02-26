@@ -1,0 +1,12 @@
+server:
+  port: 8010
+spring:
+  application:
+    name: microservice-consumer-movie
+  zipkin:
+    base-url: http://127.0.0.1:9411
+  sleuth:
+    sampler:
+      percentage: 1.0
+user:
+  userServiceUrl: http://127.0.0.1:8000/

@@ -1,0 +1,5 @@
+server:
+  port: 8010
+  
+user:
+  userServiceUrl: http://127.0.0.1:8000/
