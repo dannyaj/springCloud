@@ -1,0 +1,52 @@
+server:
+  port: 9411
+spring:  
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+zipkin:
+  storage:
+    type: elasticsearch
+    elasticsearch:
+      cluster: elasticsearch
+      hosts: http://127.0.0.1:9200
+      index: zipkin
+      index-shards: 5
+      index-replicas: 1
+      
+# refer ebook page 185
+# 1. install ELK
+# 2. 安裝Elasticsearch 
+#   1.下載https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-5.0.1.tar.gz
+#   2.tar zxvf elasticsearch-5.0.1.tar.gz
+#   3.運行 bin/elasticsearch -d。按守護進程啟動
+#   4.curl -XGET 'localhost:9200/?pretty' or http://localhost:9200 查看是否啟動服務。 備註：默認情況下，只有內網可以訪問 可以在配置文件中設置： network.host: 0.0.0.0 考慮到安全問題設置需要慎重。
+#   5.日誌文件默認在工作目錄的log文件夾下。
+#   6.配置文件在工作目錄的config文件夾下的elasticsearch.yml中。
+#   7.教程：https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html
+
+# 3. 安裝Logstash
+#   1.下載https://artifacts.elastic.co/downloads/logstash/logstash-5.0.1.tar.gz
+#   2.tar zxvf logstash-5.0.1.tar.gz
+#   3.運行bin/logstash -f logstash.conf
+#   4.教程：https://www.elastic.co/guide/en/logstash/current/getting-started-with-logstash.html
+#   5. verify http://localhost:9600
+
+# 4. 安裝Kibana
+#   1.下載https://artifacts.elastic.co/downloads/kibana/kibana-5.0.1-darwin-x86_64.tar.gz
+#   2.修改config/kibana.yml,設置elasticsearch.url指向elasticsearch的ip。
+#   3.bin/kibana
+#   4.瀏覽器輸入localhost:5601
+#   5.教程：https://www.elastic.co/guide/en/kibana/current/getting-started.html
+
+# 3. 啟動 microservice-trace-zipkin-server-stream-elasticsearch
+# 4. 啟動 microservice-simple-provider-user-trace-zipkin-stream
+# 5. 啟動 microservice-simple-consumer-movie-trace-zipkin-stream
+# 6. 多訪問http://127.0.0.1:8000/1 產生一些log
+# 7. 多訪問http://127.0.0.1:8010/user/1 產生一些log
+# 8. 訪問 kibana http:127.0.0.1:5601
+# 9. 訪問 kibana http:127.0.0.1:9411
+# 10. 訪問  http:127.0.0.1:9200/_search
+# 11. 重啟動 microservice-trace-zipkin-server-stream-elasticsearch, 可以查詢到歷史數據, 數據有存在elasticsearch

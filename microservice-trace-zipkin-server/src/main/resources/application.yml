@@ -1,0 +1,9 @@
+server:
+  port: 9411
+  
+# refer ebook page 180
+# 1. 啟動 microservice-trace-zipkin-server
+# 2. 啟動 microservice-simple-provider-user-trace-zipkin
+# 3. 啟動 microservice-simple-consumer-movie-trace-zipkin
+# 4. 訪問 http://127.0.0.1:8010/user/1
+# 5. 訪問 http://127.0.0.1:9411

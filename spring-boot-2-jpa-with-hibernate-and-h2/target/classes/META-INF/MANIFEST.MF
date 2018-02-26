@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Implementation-Title: spring-boot-2-jpa-with-hibernate-and-h2
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: dannyaj
+Implementation-Vendor-Id: com.in28minutes.springboot.jpa.hibernate.h2.
+ example
+Build-Jdk: 1.8.0_144
+Implementation-URL: http://projects.spring.io/spring-boot/spring-boot-
+ 2-jpa-with-hibernate-and-h2/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
