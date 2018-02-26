@@ -1,0 +1,18 @@
+package com.itmuch.cloud.microservicediscoveryeurekaauthenticating;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
+
+import com.itmuch.cloud.study.EurekaApplication;
+
+@RunWith(SpringRunner.class)
+@SpringBootTest(classes = EurekaApplication.class)
+public class MicroserviceDiscoveryEurekaAuthenticatingApplicationTests {
+
+	@Test
+	public void contextLoads() {
+	}
+
+}

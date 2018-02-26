@@ -1,0 +1,13 @@
+server:
+  port: 8761                    # 指定该Eureka实例的端口
+eureka:
+  client:
+    registerWithEureka: false # register myself to eureka server default is true
+    fetchRegistry: false      # sync other eureka server data default is true
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8761/eureka/  # 設置與eureka server 交互地址, 多個可用, 分隔
+      
+
+# 参考文档：http://projects.spring.io/spring-cloud/docs/1.0.3/spring-cloud.html#_standalone_mode
+# 参考文档：http://my.oschina.net/buwei/blog/618756
+# refer books page 32
