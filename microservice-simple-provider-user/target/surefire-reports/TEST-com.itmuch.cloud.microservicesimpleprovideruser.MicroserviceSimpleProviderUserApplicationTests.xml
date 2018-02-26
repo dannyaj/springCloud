@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.itmuch.cloud.microservicesimpleprovideruser.MicroserviceSimpleProviderUserApplicationTests" time="0.007" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="TW"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/08/rygyp2693kb5zx5nkytwf5vm0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/dannyaj/workspace-sts-3.9.2.RELEASE/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf6486196113852211223.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/dannyaj/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.13.3"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/dannyaj"/>
+    <property name="user.timezone" value="Asia/Taipei"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="dannyaj"/>
+    <property name="java.class.path" value="/Applications/STS.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_1.8.2.20171007-0216/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="user.language.format" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="java.ext.dirs" value="/Users/dannyaj/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="initializationError" classname="com.itmuch.cloud.microservicesimpleprovideruser.MicroserviceSimpleProviderUserApplicationTests" time="0.007">
+    <error message="Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test" type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test
+	at org.springframework.util.Assert.state(Assert.java:70)
+	at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses(SpringBootTestContextBootstrapper.java:173)
+	at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.processMergedContextConfiguration(SpringBootTestContextBootstrapper.java:133)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildMergedContextConfiguration(AbstractTestContextBootstrapper.java:409)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildDefaultMergedContextConfiguration(AbstractTestContextBootstrapper.java:323)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildMergedContextConfiguration(AbstractTestContextBootstrapper.java:277)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildTestContext(AbstractTestContextBootstrapper.java:112)
+	at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.buildTestContext(SpringBootTestContextBootstrapper.java:78)
+	at org.springframework.test.context.TestContextManager.<init>(TestContextManager.java:120)
+	at org.springframework.test.context.TestContextManager.<init>(TestContextManager.java:105)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTestContextManager(SpringJUnit4ClassRunner.java:152)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.<init>(SpringJUnit4ClassRunner.java:143)
+	at org.springframework.test.context.junit4.SpringRunner.<init>(SpringRunner.java:49)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:104)
+	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:86)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:33)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]></error>
+    <system-out><![CDATA[16:33:09.170 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.itmuch.cloud.microservicesimpleprovideruser.MicroserviceSimpleProviderUserApplicationTests]
+16:33:09.182 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+16:33:09.190 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+16:33:09.207 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.itmuch.cloud.microservicesimpleprovideruser.MicroserviceSimpleProviderUserApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+16:33:09.219 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.itmuch.cloud.microservicesimpleprovideruser.MicroserviceSimpleProviderUserApplicationTests], using SpringBootContextLoader
+16:33:09.223 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.itmuch.cloud.microservicesimpleprovideruser.MicroserviceSimpleProviderUserApplicationTests]: class path resource [com/itmuch/cloud/microservicesimpleprovideruser/MicroserviceSimpleProviderUserApplicationTests-context.xml] does not exist
+16:33:09.224 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.itmuch.cloud.microservicesimpleprovideruser.MicroserviceSimpleProviderUserApplicationTests]: class path resource [com/itmuch/cloud/microservicesimpleprovideruser/MicroserviceSimpleProviderUserApplicationTestsContext.groovy] does not exist
+16:33:09.224 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.itmuch.cloud.microservicesimpleprovideruser.MicroserviceSimpleProviderUserApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+16:33:09.225 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.itmuch.cloud.microservicesimpleprovideruser.MicroserviceSimpleProviderUserApplicationTests]: MicroserviceSimpleProviderUserApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:33:09.269 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.itmuch.cloud.microservicesimpleprovideruser.MicroserviceSimpleProviderUserApplicationTests]
+16:33:09.281 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+16:33:09.282 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+16:33:09.282 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+16:33:09.292 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/itmuch/cloud/microservicesimpleprovideruser/] to resources [URL [file:/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/test-classes/com/itmuch/cloud/microservicesimpleprovideruser/]]
+16:33:09.293 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/test-classes/com/itmuch/cloud/microservicesimpleprovideruser]
+16:33:09.293 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/test-classes/com/itmuch/cloud/microservicesimpleprovideruser] for files matching pattern [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/test-classes/com/itmuch/cloud/microservicesimpleprovideruser/*.class]
+16:33:09.296 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/itmuch/cloud/microservicesimpleprovideruser/*.class] to resources [file [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/test-classes/com/itmuch/cloud/microservicesimpleprovideruser/MicroserviceSimpleProviderUserApplicationTests.class]]
+16:33:09.313 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/itmuch/cloud/] to resources [URL [file:/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/test-classes/com/itmuch/cloud/], URL [file:/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/classes/com/itmuch/cloud/]]
+16:33:09.313 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/test-classes/com/itmuch/cloud]
+16:33:09.313 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/test-classes/com/itmuch/cloud] for files matching pattern [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/test-classes/com/itmuch/cloud/*.class]
+16:33:09.313 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/classes/com/itmuch/cloud]
+16:33:09.313 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/classes/com/itmuch/cloud] for files matching pattern [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/classes/com/itmuch/cloud/*.class]
+16:33:09.314 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/itmuch/cloud/*.class] to resources []
+16:33:09.314 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/itmuch/] to resources [URL [file:/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/test-classes/com/itmuch/], URL [file:/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/classes/com/itmuch/]]
+16:33:09.314 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/test-classes/com/itmuch]
+16:33:09.314 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/test-classes/com/itmuch] for files matching pattern [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/test-classes/com/itmuch/*.class]
+16:33:09.314 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/classes/com/itmuch]
+16:33:09.315 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/classes/com/itmuch] for files matching pattern [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/classes/com/itmuch/*.class]
+16:33:09.315 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/itmuch/*.class] to resources []
+16:33:09.316 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/] to resources [URL [jar:file:/System/Library/Java/Extensions/MRJToolkit.jar!/com/], URL [file:/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/test-classes/com/], URL [file:/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/classes/com/], URL [jar:file:/Users/dannyaj/.m2/repository/com/fasterxml/classmate/1.3.3/classmate-1.3.3.jar!/com/], URL [jar:file:/Users/dannyaj/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.8/jackson-databind-2.8.8.jar!/com/], URL [jar:file:/Users/dannyaj/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.8/jackson-annotations-2.8.8.jar!/com/], URL [jar:file:/Users/dannyaj/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.8/jackson-core-2.8.8.jar!/com/], URL [jar:file:/Users/dannyaj/.m2/repository/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar!/com/]]
+16:33:09.316 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/System/Library/Java/Extensions/MRJToolkit.jar]
+16:33:09.317 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/test-classes/com]
+16:33:09.317 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/test-classes/com] for files matching pattern [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/test-classes/com/*.class]
+16:33:09.317 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/classes/com]
+16:33:09.317 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/classes/com] for files matching pattern [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/classes/com/*.class]
+16:33:09.317 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/dannyaj/.m2/repository/com/fasterxml/classmate/1.3.3/classmate-1.3.3.jar]
+16:33:09.318 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/dannyaj/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.8/jackson-databind-2.8.8.jar]
+16:33:09.329 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/dannyaj/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.8/jackson-annotations-2.8.8.jar]
+16:33:09.331 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/dannyaj/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.8/jackson-core-2.8.8.jar]
+16:33:09.332 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/dannyaj/.m2/repository/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar]
+16:33:09.333 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/*.class] to resources []
+16:33:09.337 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.itmuch.cloud.microservicesimpleprovideruser.MicroserviceSimpleProviderUserApplicationTests]
+16:33:09.338 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+16:33:09.338 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+16:33:09.338 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.itmuch.cloud.microservicesimpleprovideruser.MicroserviceSimpleProviderUserApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+16:33:09.339 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.itmuch.cloud.microservicesimpleprovideruser.MicroserviceSimpleProviderUserApplicationTests], using SpringBootContextLoader
+16:33:09.340 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.itmuch.cloud.microservicesimpleprovideruser.MicroserviceSimpleProviderUserApplicationTests]: class path resource [com/itmuch/cloud/microservicesimpleprovideruser/MicroserviceSimpleProviderUserApplicationTests-context.xml] does not exist
+16:33:09.340 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.itmuch.cloud.microservicesimpleprovideruser.MicroserviceSimpleProviderUserApplicationTests]: class path resource [com/itmuch/cloud/microservicesimpleprovideruser/MicroserviceSimpleProviderUserApplicationTestsContext.groovy] does not exist
+16:33:09.340 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.itmuch.cloud.microservicesimpleprovideruser.MicroserviceSimpleProviderUserApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+16:33:09.340 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.itmuch.cloud.microservicesimpleprovideruser.MicroserviceSimpleProviderUserApplicationTests]: MicroserviceSimpleProviderUserApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:33:09.344 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.itmuch.cloud.microservicesimpleprovideruser.MicroserviceSimpleProviderUserApplicationTests]
+16:33:09.344 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+16:33:09.344 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+16:33:09.345 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+16:33:09.345 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/itmuch/cloud/microservicesimpleprovideruser/] to resources [URL [file:/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/test-classes/com/itmuch/cloud/microservicesimpleprovideruser/]]
+16:33:09.345 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/test-classes/com/itmuch/cloud/microservicesimpleprovideruser]
+16:33:09.345 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/test-classes/com/itmuch/cloud/microservicesimpleprovideruser] for files matching pattern [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/test-classes/com/itmuch/cloud/microservicesimpleprovideruser/*.class]
+16:33:09.346 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/itmuch/cloud/microservicesimpleprovideruser/*.class] to resources [file [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/test-classes/com/itmuch/cloud/microservicesimpleprovideruser/MicroserviceSimpleProviderUserApplicationTests.class]]
+16:33:09.354 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/itmuch/cloud/] to resources [URL [file:/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/test-classes/com/itmuch/cloud/], URL [file:/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/classes/com/itmuch/cloud/]]
+16:33:09.355 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/test-classes/com/itmuch/cloud]
+16:33:09.355 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/test-classes/com/itmuch/cloud] for files matching pattern [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/test-classes/com/itmuch/cloud/*.class]
+16:33:09.355 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/classes/com/itmuch/cloud]
+16:33:09.355 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/classes/com/itmuch/cloud] for files matching pattern [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/classes/com/itmuch/cloud/*.class]
+16:33:09.356 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/itmuch/cloud/*.class] to resources []
+16:33:09.356 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/itmuch/] to resources [URL [file:/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/test-classes/com/itmuch/], URL [file:/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/classes/com/itmuch/]]
+16:33:09.356 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/test-classes/com/itmuch]
+16:33:09.356 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/test-classes/com/itmuch] for files matching pattern [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/test-classes/com/itmuch/*.class]
+16:33:09.357 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/classes/com/itmuch]
+16:33:09.357 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/classes/com/itmuch] for files matching pattern [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/classes/com/itmuch/*.class]
+16:33:09.357 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/itmuch/*.class] to resources []
+16:33:09.358 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/] to resources [URL [jar:file:/System/Library/Java/Extensions/MRJToolkit.jar!/com/], URL [file:/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/test-classes/com/], URL [file:/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/classes/com/], URL [jar:file:/Users/dannyaj/.m2/repository/com/fasterxml/classmate/1.3.3/classmate-1.3.3.jar!/com/], URL [jar:file:/Users/dannyaj/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.8/jackson-databind-2.8.8.jar!/com/], URL [jar:file:/Users/dannyaj/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.8/jackson-annotations-2.8.8.jar!/com/], URL [jar:file:/Users/dannyaj/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.8/jackson-core-2.8.8.jar!/com/], URL [jar:file:/Users/dannyaj/.m2/repository/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar!/com/]]
+16:33:09.359 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/System/Library/Java/Extensions/MRJToolkit.jar]
+16:33:09.359 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/test-classes/com]
+16:33:09.359 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/test-classes/com] for files matching pattern [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/test-classes/com/*.class]
+16:33:09.359 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/classes/com]
+16:33:09.360 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/classes/com] for files matching pattern [/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-simple-provider-user/target/classes/com/*.class]
+16:33:09.360 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/dannyaj/.m2/repository/com/fasterxml/classmate/1.3.3/classmate-1.3.3.jar]
+16:33:09.360 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/dannyaj/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.8/jackson-databind-2.8.8.jar]
+16:33:09.363 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/dannyaj/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.8/jackson-annotations-2.8.8.jar]
+16:33:09.363 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/dannyaj/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.8/jackson-core-2.8.8.jar]
+16:33:09.364 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/dannyaj/.m2/repository/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar]
+16:33:09.365 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/*.class] to resources []
+]]></system-out>
+  </testcase>
+</testsuite>
