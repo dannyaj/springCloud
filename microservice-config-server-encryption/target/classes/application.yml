@@ -1,0 +1,29 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: microservice-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/dannyaj/spring-cloud-config-repo      # 配置Git仓库的地址
+          username:                                                         # Git仓库的账号
+          password:                                                         # Git仓库的密码
+encrypt:
+  key: foo  # 设置对称密钥
+  
+# refer ebook page 156
+
+# 先做 1. curl http://127.0.0.1:8080/encrypt -d mysecret   如要解密用 curl http://127.0.0.1:8080/decrypt -d e30d3168cea33bc161ed1d4420407fdec7966a1777b8751a2d690571f25c032d
+# 2. vim encryption.yml
+   # spring:
+   #   datasource:
+   #   username: dbuser
+   #   password: '{cipher}e30d3168cea33bc161ed1d4420407fdec7966a1777b8751a2d690571f25c032d'
+   
+# 3. 使用 http://127.0.0.1:8080/encryption-default.yml
+
+# ps. 設置 spring.cloud.config.server.encrypt.enabled=false  可由ConfigClient 自行解密
+
+# 對稱加密
