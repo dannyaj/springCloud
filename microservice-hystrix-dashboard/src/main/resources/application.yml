@@ -1,0 +1,15 @@
+server:
+  port: 8030
+  
+# refer ebook page 105
+
+# 先啟動 microservice-discovery-eureka
+# 先啟動 microservice-provider-user
+# 1. start microservice-consumer-movie-ribbon-hystrix port:8010
+# 2. start microservice-consumer-movie-feign-hystrix-fallback-stream port:8020
+# 3. start microservice-hystrix-turbine port:8031
+# 4. start microservice--hystrix-dashboard port:8030
+# 5. request http://127.0.0.1:8010/user/1
+# 6. request http://127.0.0.1:8020/user/1
+# 7. open http://127.0.0.1:8030/hystrix.stream
+# 8. 在URL http://127.0.0.1:8030/turbine.stream

@@ -1,0 +1,30 @@
+server:
+  port: 8040
+spring:
+  application:
+    name: microservice-gateway-zuul
+eureka:
+  client:
+    service-url:
+      defaultZone: http://user:password@peer1:8761/eureka/,http://user:password@peer2:8762/eureka/
+      #defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+# 上传大文件得将超时时间设置长一些，否则会报超时异常。以下几行超时设置来自http://cloud.spring.io/spring-cloud-static/Camden.SR3/#_uploading_files_through_zuul
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 60000
+ribbon:
+  ConnectTimeout: 3000
+  ReadTimeout: 60000
+  
+# refer ebook page 124      
+# 直接上傳 refer curl -F "file=@microservice-provider-user-0.0.1-SNAPSHOT.jar" 127.0.0.1:8050/upload
+
+# 測試通過 zuul 上傳小文件
+# curl -v -H "Transfer-Encoding: chunked" -F "file=@microservice-provider-user-8001.sh" 127.0.0.1:8040/microservice-file-upload/upload
+
+# 測試通過 zuul 上傳大文件, 不加/zuul 
+# curl -v -H "Transfer-Encoding: chunked" -F "file=@microservice-provider-user-0.0.1-SNAPSHOT.jar" 127.0.0.1:8040/microservice-file-upload/upload
+
+# 測試通過 zuul 上傳大文件, 加/zuul 
+# curl -v -H "Transfer-Encoding: chunked" -F "file=@microservice-provider-user-0.0.1-SNAPSHOT.jar" 127.0.0.1:8040/zuul/microservice-file-upload/upload
+ 
