@@ -1,0 +1,5 @@
+/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-provider-user-with-auth/src/main/java/com/itmuch/cloud/study/controller/UserController.java
+/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-provider-user-with-auth/src/main/java/com/itmuch/cloud/study/repository/UserRepository.java
+/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-provider-user-with-auth/src/main/java/com/itmuch/cloud/study/ProviderUserApplication.java
+/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-provider-user-with-auth/src/main/java/com/itmuch/cloud/study/entity/User.java
+/Users/dannyaj/workspace-sts-3.9.2.RELEASE/microservice-provider-user-with-auth/src/main/java/com/itmuch/cloud/study/security/WebSecurityConfig.java
