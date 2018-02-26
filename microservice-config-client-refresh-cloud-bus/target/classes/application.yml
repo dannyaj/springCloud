@@ -1,0 +1,17 @@
+server:
+  port: 8081
+  
+# 自動刷新
+# refer ebook page 160
+
+# 1. 啟動 microservice-config-server
+# 2. 啟動 microservice-config-refresh-cloud-bus
+# 3. 將 microservice-config-client-refresh-cloud-bus port 改8082 , 再啟動一個
+# 4. 訪問 http://127.0.0.1:8081/profile , 未更新
+# 5. 將 git repository 中的 microservic-foo-dev.properties 文件更改 profile=dev-1.0-bus
+# 6. post curl -X POST http://127.0.0.1:8081/bus/refresh
+# 7. 訪問 http://127.0.0.1:8081/profile
+# 8. 訪問 http://127.0.0.1:8082/profile
+
+# refer 解决Spring Cloud Bus不刷新所有节点的问题及理解"Application Context ID must be unique" 
+# http://www.itmuch.com/spring-cloud-code-read/spring-cloud-code-read-spring-cloud-bus/

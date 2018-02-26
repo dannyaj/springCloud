@@ -1,0 +1,14 @@
+server:
+  port: 8081
+  
+# refer ebook page 158
+# 手動刷新
+
+# 1. 啟動 microservice-config-server
+# 2. 啟動 microservice-config-client-refresh
+# 3. 訪問http://127.0.0.1:8081/profile
+# 4. 修改 microservice-foo-dev.properties 內容 profile=dev-1.0-change
+# 5. 重新訪問 http://127.0.0.1:8081/profile 尚未更新
+# 6. 發送 POST 到 http://127.0.0.1:8081/refresh
+#  curl -X POST http://127.0.0.1:8081/refresh 返回 "profile" 表示更新
+# 7. 訪問http://127.0.0.1:8081/profile
