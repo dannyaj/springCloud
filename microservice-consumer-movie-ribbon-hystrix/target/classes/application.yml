@@ -1,0 +1,15 @@
+server:
+  port: 8010
+spring:
+  application:
+    name: microservice-consumer-movie
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://user:password@peer1:8761/eureka/,http://user:password@peer2:8762/eureka/
+      #defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+    
+# 有包含Hystrix 的 監控
+# http://127.0.0.1:8010/hystrix.stream
